@@ -1,6 +1,6 @@
 # nicoocr.github.io
 
-> Esto es el README.md >
+> Esto es el README.md 
 *Realizado por: Nicolás Cervera Rodríguez*
 
 ---
