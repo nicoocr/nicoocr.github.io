@@ -151,7 +151,7 @@ body {
 
 .content {
     display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto)); /* Cambia a grid para una mejor distribución */
     justify-content: center;
     gap: 20px;
     margin-top: 4rem;
@@ -279,7 +279,7 @@ body {
 
 .imagen img {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra */
@@ -468,6 +468,271 @@ input[type="date"]:focus {
     padding: 20px;
 }
 
+/* Contenedor principal */
+.privacy-container {
+    background-color: #0d0d0d; /* Fondo oscuro */
+    color: #d1d1d1; /* Texto gris claro */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #b11226; /* Línea roja intensa */
+}
+
+.privacy-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #b11226; /* Rojo intenso */
+    margin-bottom: 10px;
+}
+
+/* Navegación */
+.privacy-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.privacy-nav a {
+    color: #d1d1d1; /* Gris claro */
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.privacy-nav a:hover {
+    color: #b11226; /* Rojo intenso */
+}
+
+/* Página principal */
+.privacy-page {
+    padding: 40px 20px;
+    background-color: #0d0d0d; /* Fondo oscuro */
+    color: #d1d1d1; /* Texto gris claro */
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+/* Encabezado */
+.privacy-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.privacy-title {
+    font-size: 2.5rem;
+    color: #b11226; /* Rojo intenso */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para destacar */
+    margin-bottom: 10px;
+}
+
+.privacy-subtitle {
+    font-size: 1.2rem;
+    color: #d1d1d1; /* Gris claro */
+    margin-top: 10px;
+}
+
+/* Contenido */
+.privacy-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.privacy-section-title {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    color: #ffffff; /* Blanco puro */
+    border-bottom: 2px solid #b11226; /* Línea roja decorativa */
+    padding-bottom: 5px;
+}
+
+.privacy-text {
+    margin-bottom: 20px;
+    text-align: justify; /* Justifica el texto para un diseño más profesional */
+}
+
+/* Listas */
+.privacy-list {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.privacy-list li {
+    list-style-type: disc; /* Estilo de lista con viñetas */
+    margin-bottom: 10px;
+    color: #d1d1d1; /* Gris claro */
+}
+
+/* Enlaces */
+.privacy-link {
+    color: #b11226; /* Rojo intenso */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.privacy-link:hover {
+    color: #8a0e1d; /* Rojo más oscuro */
+}
+
+/* Pie de página */
+.privacy-footer {
+    background-color: #2e2e2e; /* Gris metálico */
+    color: #d1d1d1; /* Gris claro */
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.5); /* Sombra superior */
+    margin-top: 40px;
+}
+
+.privacy-footer-content p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.privacy-footer-nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.privacy-footer-nav a {
+    color: #d1d1d1; /* Gris claro */
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.privacy-footer-nav a:hover {
+    color: #b11226; /* Rojo intenso */
+}
+/* Contenedor principal */
+.terms-container {
+    background-color: #0d0d0d; /* Fondo oscuro */
+    color: #d1d1d1; /* Texto gris claro */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #b11226; /* Línea roja intensa */
+}
+
+.terms-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #b11226; /* Rojo intenso */
+    margin-bottom: 10px;
+}
+
+/* Navegación */
+.terms-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.terms-nav a {
+    color: #d1d1d1; /* Gris claro */
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.terms-nav a:hover {
+    color: #b11226; /* Rojo intenso */
+}
+
+/* Página principal */
+.terms-page {
+    padding: 40px 20px;
+    background-color: #0d0d0d; /* Fondo oscuro */
+    color: #d1d1d1; /* Texto gris claro */
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+/* Encabezado */
+.terms-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.terms-title {
+    font-size: 2.5rem;
+    color: #b11226; /* Rojo intenso */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para destacar */
+    margin-bottom: 10px;
+}
+
+.terms-subtitle {
+    font-size: 1.2rem;
+    color: #d1d1d1; /* Gris claro */
+    margin-top: 10px;
+}
+
+/* Contenido */
+.terms-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.terms-section-title {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    color: #ffffff; /* Blanco puro */
+    border-bottom: 2px solid #b11226; /* Línea roja decorativa */
+    padding-bottom: 5px;
+}
+
+.terms-text {
+    margin-bottom: 20px;
+    text-align: justify; /* Justifica el texto para un diseño más profesional */
+}
+
+/* Enlaces */
+.terms-link {
+    color: #b11226; /* Rojo intenso */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.terms-link:hover {
+    color: #8a0e1d; /* Rojo más oscuro */
+}
+
+/* Pie de página */
+.terms-footer {
+    background-color: #2e2e2e; /* Gris metálico */
+    color: #d1d1d1; /* Gris claro */
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.5); /* Sombra superior */
+    margin-top: 40px;
+}
+
+.terms-footer-content p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.terms-footer-nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.terms-footer-nav a {
+    color: #d1d1d1; /* Gris claro */
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.terms-footer-nav a:hover {
+    color: #b11226; /* Rojo intenso */
+}
+
 @media screen and (max-width: 768px) {
     body {
         font-size: 14px; /* Reduce el tamaño de fuente general */
@@ -575,5 +840,21 @@ input[type="date"]:focus {
     form .cta {
         font-size: 0.9rem; /* Ajusta el tamaño del botón */
         padding: 10px 20px;
+    }
+    .privacy-title {
+        font-size: 2rem;
+    }
+
+    .privacy-section-title {
+        font-size: 1.5rem;
+    }
+
+    .privacy-text {
+        font-size: 0.9rem;
+    }
+
+    .privacy-footer-nav {
+        flex-direction: column;
+        gap: 10px;
     }
 }
