@@ -27,13 +27,13 @@ body {
     font-size: 1rem;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5); /* Sombra */
     z-index: 1000;
-    border-bottom: 2px solid #b11226; /* Borde rojo intenso */
+    border-bottom: 2px solid #127fb1; /* Borde rojo intenso */
 }
 
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #b11226; /* Rojo intenso */
+    color: #127fb1; /* Rojo intenso */
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -55,7 +55,7 @@ body {
 }
 
 .nav a:hover {
-    color: #b11226; /* Rojo intenso */
+    color: #127fb1; /* Rojo intenso */
     transform: scale(1.1);
     transition: 0.2s;
 }
@@ -107,7 +107,7 @@ body {
 .hero h1 {
     font-size: 4.5rem;
     margin-bottom: 20px;
-    color: #b11226; /* Rojo intenso */
+    color: #127fb1; /* Rojo intenso */
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -128,11 +128,11 @@ body {
     text-decoration: none;
     color: #ffffff; /* Blanco puro */
     padding: 12px 40px;
-    border-radius: 0; /* Más cuadrado como el estilo Hitman */
+    border-radius: 0; 
     display: inline-block;
     margin-top: 20px;
-    border: 1px solid #b11226; /* Rojo intenso */
-    background-color: rgba(177, 18, 38, 0.2); /* Rojo con transparencia */
+    border: 1px solid #127fb1; /* Rojo intenso */
+    background-color: rgba(18, 132, 177, 0.2); /* Rojo con transparencia */
     transition: all 0.3s ease;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     font-weight: bold;
@@ -143,13 +143,13 @@ body {
 }
 
 .btn:hover {
-    background-color: #b11226; /* Rojo intenso */
+    background-color: #127fb1; /* Rojo intenso */
     transform: translateY(-3px);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.7);
 }
 
 .btn:active {
-    background-color: #8a0e1d; /* Rojo más oscuro */
+    background-color: #0e588a; /* Rojo más oscuro */
     transform: translateY(1px);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
 }
@@ -168,7 +168,7 @@ body {
 
 .header h1 {
     font-size: 3rem;
-    color: #b11226; /* Rojo intenso */
+    color: #127fb1; /* Rojo intenso */
     margin-bottom: 15px;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -196,7 +196,7 @@ body {
 .card {
     background-color: #1a1a1a;
     border: 1px solid #333;
-    border-radius: 0; /* Más cuadrado como el estilo Hitman */
+    border-radius: 0; 
     overflow: hidden;
     width: 350px;
     transition: all 0.3s ease;
@@ -208,7 +208,7 @@ body {
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
-    border-color: #b11226; /* Borde rojo al pasar el mouse */
+    border-color: #127fb1; /* Borde rojo al pasar el ratón */
 }
 
 .imagen {
@@ -252,7 +252,7 @@ body {
     padding: 12px 25px;
     background-color: transparent;
     color: #ffffff;
-    border: 1px solid #b11226;
+    border: 1px solid #127fb1;
     cursor: pointer;
     transition: all 0.3s ease;
     text-transform: uppercase;
@@ -263,7 +263,7 @@ body {
 }
 
 .card button:hover {
-    background-color: #b11226;
+    background-color: #127fb1;
     transform: translateY(-3px);
 }
 
@@ -271,7 +271,7 @@ body {
 .contact-header {
     background-color: #1a1a1a;
     padding: 40px 20px;
-    border-bottom: 2px solid #b11226;
+    border-bottom: 2px solid #127fb1;
     margin-bottom: 40px;
 }
 
@@ -282,30 +282,26 @@ body {
 }
 
 .card2 {
-    display: flex;
-    flex-direction: column;
     background-color: #1a1a1a;
     border: 1px solid #333;
-    border-radius: 0; /* Más cuadrado como el estilo Hitman */
+    border-radius: 0;
     overflow: hidden;
-    max-width: 800px;
-    width: 100%;
-    transition: all 0.3s ease;
+    width: 600px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
 }
 
 .imagen2 {
     width: 100%;
-    max-height: 300px;
+    max-height: 600px;
     overflow: hidden;
 }
 
 .imagen2 img {
     width: 100%;
-    height: 100%;
-    object-fit: contain;
-    background-color: #2e2e2e;
-    padding: 20px;
+    height: 150%;
+    object-fit: cover;
+    transition: all 0.5s ease;
 }
 
 .card2 .text {
@@ -315,7 +311,7 @@ body {
 
 .card2 .text h2 {
     font-size: 2rem;
-    color: #b11226;
+    color: #127fb1;
     margin-bottom: 20px;
     position: relative;
     padding-bottom: 15px;
@@ -356,7 +352,7 @@ body {
 .testimonio:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
-    border-color: #b11226;
+    border-color: #127fb1;
 }
 
 .testimonio-text p {
@@ -373,7 +369,7 @@ body {
 }
 
 .testimonio-autor p {
-    color: #b11226;
+    color: #127fb1;
     font-size: 0.9rem;
 }
 
@@ -401,7 +397,7 @@ body {
 .miembro:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
-    border-color: #b11226;
+    border-color: #127fb1;
 }
 
 .miembro-foto {
@@ -430,7 +426,7 @@ body {
 }
 
 .miembro-info .cargo {
-    color: #b11226;
+    color: #127fb1;
     font-weight: bold;
     margin-bottom: 10px;
     font-size: 0.9rem;
@@ -461,8 +457,8 @@ body {
 
 .social-icon:hover {
     color: #ffffff;
-    background-color: #b11226;
-    border-color: #b11226;
+    background-color: #127fb1;
+    border-color: #127fb1;
 }
 
 
@@ -490,7 +486,7 @@ body {
 .footer-logo {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #b11226;
+    color: #127fb1;
     margin-bottom: 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -534,7 +530,7 @@ body {
     bottom: 0;
     width: 30px;
     height: 2px;
-    background-color: #b11226;
+    background-color: #127fb1;
 }
 
 .footer-links-column a, .footer-links-column p {
@@ -546,7 +542,7 @@ body {
 }
 
 .footer-links-column a:hover {
-    color: #b11226;
+    color: #127fb1;
     transform: translateX(5px);
 }
 
@@ -577,7 +573,7 @@ body {
 }
 
 .footer-nav a:hover {
-    color: #b11226;
+    color: #127fb1;
 }
 
 /* Estilos de formulario de contacto */
@@ -611,7 +607,7 @@ form input, form textarea {
 }
 
 form input:focus, form textarea:focus {
-    border-color: #b11226;
+    border-color: #127fb1;
     outline: none;
     box-shadow: 0 0 8px rgba(177, 18, 38, 0.7);
 }
@@ -624,7 +620,7 @@ form textarea {
 form .cta {
     background-color: transparent;
     color: #ffffff;
-    border: 1px solid #b11226;
+    border: 1px solid #127fb1;
     cursor: pointer;
     font-weight: bold;
     padding: 12px 25px;
@@ -634,7 +630,7 @@ form .cta {
 }
 
 form .cta:hover {
-    background-color: #b11226;
+    background-color: #127fb1;
     transform: translateY(-3px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
@@ -651,13 +647,13 @@ form .cta:hover {
     color: #d1d1d1; /* Texto gris claro */
     padding: 20px;
     text-align: center;
-    border-bottom: 2px solid #b11226; /* Línea roja intensa */
+    border-bottom: 2px solid #127fb1; /* Línea roja intensa */
 }
 
 .privacy-logo {
     font-size: 2rem;
     font-weight: bold;
-    color: #b11226; /* Rojo intenso */
+    color: #127fb1; /* Rojo intenso */
     margin-bottom: 10px;
 }
 
@@ -677,7 +673,7 @@ form .cta:hover {
 }
 
 .privacy-nav a:hover {
-    color: #b11226; /* Rojo intenso */
+    color: #127fb1; /* Rojo intenso */
 }
 
 /* Página principal */
@@ -697,7 +693,7 @@ form .cta:hover {
 
 .privacy-title {
     font-size: 2.5rem;
-    color: #b11226; /* Rojo intenso */
+    color: #127fb1; /* Rojo intenso */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para destacar */
     margin-bottom: 10px;
 }
@@ -718,7 +714,7 @@ form .cta:hover {
     font-size: 1.8rem;
     margin-top: 30px;
     color: #ffffff; /* Blanco puro */
-    border-bottom: 2px solid #b11226; /* Línea roja decorativa */
+    border-bottom: 2px solid #127fb1; /* Línea roja decorativa */
     padding-bottom: 5px;
 }
 
@@ -741,14 +737,14 @@ form .cta:hover {
 
 /* Enlaces */
 .privacy-link {
-    color: #b11226; /* Rojo intenso */
+    color: #127fb1; /* Rojo intenso */
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 .privacy-link:hover {
-    color: #8a0e1d; /* Rojo más oscuro */
+    color: #0e588a; /* Rojo más oscuro */
 }
 
 /* Pie de página */
@@ -781,7 +777,7 @@ form .cta:hover {
 }
 
 .privacy-footer-nav a:hover {
-    color: #b11226; /* Rojo intenso */
+    color: #127fb1; /* Rojo intenso */
 }
 /* Contenedor principal */
 .terms-container {
@@ -789,13 +785,13 @@ form .cta:hover {
     color: #d1d1d1; /* Texto gris claro */
     padding: 20px;
     text-align: center;
-    border-bottom: 2px solid #b11226; /* Línea roja intensa */
+    border-bottom: 2px solid #127fb1; /* Línea roja intensa */
 }
 
 .terms-logo {
     font-size: 2rem;
     font-weight: bold;
-    color: #b11226; /* Rojo intenso */
+    color: #127fb1; /* Rojo intenso */
     margin-bottom: 10px;
 }
 
@@ -815,7 +811,7 @@ form .cta:hover {
 }
 
 .terms-nav a:hover {
-    color: #b11226; /* Rojo intenso */
+    color: #127fb1; /* Rojo intenso */
 }
 
 /* Página principal */
@@ -835,7 +831,7 @@ form .cta:hover {
 
 .terms-title {
     font-size: 2.5rem;
-    color: #b11226; /* Rojo intenso */
+    color: #127fb1; /* Rojo intenso */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para destacar */
     margin-bottom: 10px;
 }
@@ -856,7 +852,7 @@ form .cta:hover {
     font-size: 1.8rem;
     margin-top: 30px;
     color: #ffffff; /* Blanco puro */
-    border-bottom: 2px solid #b11226; /* Línea roja decorativa */
+    border-bottom: 2px solid #127fb1; /* Línea roja decorativa */
     padding-bottom: 5px;
 }
 
@@ -867,14 +863,14 @@ form .cta:hover {
 
 /* Enlaces */
 .terms-link {
-    color: #b11226; /* Rojo intenso */
+    color: #127fb1; /* Rojo intenso */
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 .terms-link:hover {
-    color: #8a0e1d; /* Rojo más oscuro */
+    color: #0e588a; /* Rojo más oscuro */
 }
 
 /* Pie de página */
@@ -907,7 +903,96 @@ form .cta:hover {
 }
 
 .terms-footer-nav a:hover {
-    color: #b11226; /* Rojo intenso */
+    color: #127fb1; /* Rojo intenso */
+}
+/* Página de Servicios */
+.servicios-page .header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.servicios-page .header h1 {
+    font-size: 2.5rem;
+    color: #127fb1; /* Rojo intenso */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.servicios-page .header p {
+    font-size: 1.2rem;
+    color: #d1d1d1; /* Gris claro */
+    margin-top: 10px;
+}
+
+.servicios-container {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.servicio-card {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.servicio-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    border: 1px solid #127fb1; /* Borde rojo al pasar el ratón */
+}
+
+.servicio-imagen img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.servicio-info {
+    padding: 20px;
+    color: #d1d1d1; /* Gris claro */
+}
+
+.servicio-info h2 {
+    font-size: 1.5rem;
+    color: #ffffff; /* Blanco puro */
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.servicio-info p {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.servicio-info .precio {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #127fb1; /* Rojo intenso */
+    margin-bottom: 15px;
+}
+
+.servicio-info .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #127fb1; /* Rojo intenso */
+    color: #ffffff; /* Blanco puro */
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.servicio-info .btn:hover {
+    background-color: #0e588a; /* Rojo más oscuro */
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Media Queries para Responsividad */
