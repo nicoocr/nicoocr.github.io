@@ -1019,7 +1019,27 @@ form .cta:hover {
     .logo {
         margin-bottom: 15px;
     }
-    
+    .servicios-container {
+        display: flex; 
+        flex-direction: column; 
+        gap: 20px; 
+        padding: 15px; 
+        margin-bottom: 20px;
+        width: 100%; 
+    }
+
+    .servicio-card {
+        width: 100%; 
+        max-width: 100%;
+        margin: 0 auto; 
+    }
+
+    .servicio-imagen img {
+        height: auto; 
+    }
+
+
+
     .nav {
         flex-wrap: wrap;
         justify-content: center;
@@ -1054,7 +1074,9 @@ form .cta:hover {
     .hero h1 {
         font-size: 2.2rem;
     }
-    
+
+
+
     .btn {
         padding: 10px 25px;
     }
