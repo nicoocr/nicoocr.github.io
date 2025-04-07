@@ -1021,22 +1021,17 @@ form .cta:hover {
         margin-bottom: 15px;
     }
     .servicios-container {
-        display: flex; 
-        flex-direction: column; 
-        gap: 20px; 
-        padding: 15px; 
+        display: grid;
+        grid-template-columns: 1fr; /* Una columna */
+        gap: 20px;
+        padding: 15px;
         margin-bottom: 20px;
-        width: 100%; 
+        width: 100%;
     }
 
     .servicio-card {
-        width: 100%; 
-        max-width: 100%;
-        margin: 0 auto; 
-    }
-
-    .servicio-imagen img {
-        height: auto; 
+        width: 100%;
+        margin: 0 auto;
     }
 
 
