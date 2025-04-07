@@ -998,7 +998,7 @@ form .cta:hover {
 
 @media screen and (max-width: 768px) {
     .hero {
-        height: 60vh; 
+        height: 80vh; 
         background-position: center;
         padding: 0 10px; 
     }
@@ -1035,10 +1035,13 @@ form .cta:hover {
     }
 
     .nav {
-        flex-wrap: wrap;
+        display: flex;
         justify-content: center;
     }
-    
+    .nav a {
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
     .hero h1 {
         font-size: 2.8rem;
     }
