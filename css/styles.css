@@ -995,7 +995,67 @@ form .cta:hover {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+.galeria-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
 
+.miembro {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, z-index 0.3s ease;
+}
+
+.miembro:hover {
+    transform: scale(1.1); /* Efecto de ampliación */
+    z-index: 10; /* Superposición */
+}
+
+.miembro-foto img {
+    width: 100%;
+    height: 150%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.miembro:hover .miembro-foto img {
+    transform: scale(1.2); /* Zoom en la imagen */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Superposición oscura */
+    color: #ffffff; /* Texto blanco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.miembro-nombre {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff; /* Blanco */
+    margin: 10px;
+}
+
+.miembro:hover .overlay {
+    opacity: 1; /* Mostrar el cargo al pasar el ratón */
+}
 @media screen and (max-width: 768px) {
     .hero {
         height: 90vh; 
@@ -1064,5 +1124,17 @@ form .cta:hover {
     
     .newsletter-form .btn {
         width: 100%;
+    }
+    .galeria-container {
+        display: grid;
+        grid-template-columns: 1fr; /* Una columna */
+        gap: 20px;
+        padding: 15px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .galeria-container .miembro {
+        width: 100%;
+        margin: 0 auto;
     }
 }
