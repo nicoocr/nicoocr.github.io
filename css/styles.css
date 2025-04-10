@@ -601,7 +601,7 @@ form input, form textarea, form select {
     margin-bottom: 20px;
     border: 1px solid #444;
     background-color: #0d0d0d;
-    color: #d1d1d1;
+    color: #646262;
     font-size: 1rem;
     transition: all 0.3s ease;
     height: 50px;
@@ -629,16 +629,12 @@ form input[type="date"] {
     cursor: pointer;
     transition: border-color 0.3s ease;
 }
-
 form input[type="date"]:focus {
-    border-color: #127fb1; /* Azul intenso al enfocar */
+    border-color: #127fb1;
     outline: none;
+    box-shadow: 0 0 8px rgba(18, 60, 177, 0.7);
 }
 
-form select:focus {
-    border-color: #127fb1; /* Azul intenso al enfocar */
-    outline: none;
-}
 form .cta {
     background-color: transparent;
     color: #ffffff;
