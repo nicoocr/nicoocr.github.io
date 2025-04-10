@@ -635,19 +635,6 @@ form input[type="date"]:focus {
     outline: none;
 }
 
-/* Estilo para el menú desplegable (select) */
-form select {
-    -webkit-appearance: none; /* Elimina el estilo predeterminado en Safari */
-    -moz-appearance: none; /* Elimina el estilo predeterminado en Firefox */
-    appearance: none; /* Elimina el estilo predeterminado en otros navegadores */
-    background-color: #0d0d0d;
-    color: #7e7b7b; 
-    border: 1px solid #333; 
-    padding: 10px;
-    font-size: 1rem;
-    cursor: pointer;
-}
-
 form select:focus {
     border-color: #127fb1; /* Azul intenso al enfocar */
     outline: none;
