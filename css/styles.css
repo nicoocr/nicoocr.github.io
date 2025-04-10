@@ -616,14 +616,13 @@ form textarea {
     resize: none;
     height: 120px;
 }
-/* Estilo para el campo de fecha */
 form input[type="date"] {
     -webkit-appearance: none; /* Elimina el estilo predeterminado en Safari */
     -moz-appearance: none; /* Elimina el estilo predeterminado en Firefox */
     appearance: none; /* Elimina el estilo predeterminado en otros navegadores */
     background-color: #0d0d0d;    
-    color: #7e7b7b; /* Texto blanco */
-    border: 1px solid #333; /* Borde oscuro */
+    color: #7e7b7b; 
+    border: 1px solid #333; 
     padding: 10px;
     font-size: 1rem;
     cursor: pointer;
@@ -641,16 +640,11 @@ form select {
     -moz-appearance: none; /* Elimina el estilo predeterminado en Firefox */
     appearance: none; /* Elimina el estilo predeterminado en otros navegadores */
     background-color: #0d0d0d;
-    color: #7e7b7b; /* Texto blanco */
-    border: 1px solid #333; /* Borde oscuro */
+    color: #7e7b7b; 
+    border: 1px solid #333; 
     padding: 10px;
     font-size: 1rem;
     cursor: pointer;
-    background-image: url('imagenes/arrow-down.svg'); /* Ícono personalizado */
-    background-repeat: no-repeat;
-    background-position: right 10px center;
-    background-size: 15px;
-    transition: border-color 0.3s ease;
 }
 
 form select:focus {
