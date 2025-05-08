@@ -715,6 +715,7 @@ form .cta:hover {
 }
 
 .privacy-title {
+    margin-top: 3%;
     font-size: 2.5rem;
     color: #127fb1; /* Rojo intenso */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para destacar */
@@ -853,6 +854,7 @@ form .cta:hover {
 }
 
 .terms-title {
+    margin-top: 2%;
     font-size: 2.5rem;
     color: #127fb1; /* Rojo intenso */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para destacar */
@@ -1079,11 +1081,550 @@ form .cta:hover {
 .miembro:hover .overlay {
     opacity: 1; /* Mostrar el cargo al pasar el ratón */
 }
+
+/* ======== MODO CLARO ======== */
+/* Clase para aplicación instantánea sin transición */
+.light-mode-no-transition {
+    background-color: #f5f5f5 !important; /* Fondo gris muy claro */
+    color: #333 !important; /* Texto casi negro */
+}
+
+.light-mode-no-transition * {
+    transition: none !important;
+}
+
+body.light-mode {
+    background-color: #f5f5f5; /* Fondo gris muy claro */
+    color: #333; /* Texto casi negro */
+    transition: all 0.3s ease; /* Transición suave entre modos */
+}
+
+body.light-mode .container {
+    background-color: rgba(255, 255, 255, 0.95); /* Blanco con transparencia */
+    color: #333;
+    border-bottom: 2px solid #127fb1; /* Mantiene el borde azul */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra más sutil */
+}
+
+body.light-mode .logo,
+body.light-mode .footer-logo {
+    color: #127fb1 !important; /* Mantiene el color azul */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+body.light-mode .nav a,
+body.light-mode .footer-links-column a,
+body.light-mode .footer-info p,
+body.light-mode .footer-nav a,
+body.light-mode .social-icon,
+body.light-mode .hero-text p,
+body.light-mode .header p,
+body.light-mode .card .text p,
+body.light-mode .card2 .text p,
+body.light-mode .miembro-info .descripcion,
+body.light-mode .privacy-subtitle,
+body.light-mode .terms-subtitle,
+body.light-mode .privacy-list li,
+body.light-mode .terms-footer,
+body.light-mode .privacy-footer,
+body.light-mode .terms-footer-nav a,
+body.light-mode .privacy-footer-nav a {
+    color: #444 !important; /* Gris oscuro para texto */
+}
+
+/* Estilo mejorado para testimonios */
+body.light-mode .testimonio-text p {
+    color: #555 !important; /* Gris más oscuro para mejor legibilidad */
+    font-style: italic; /* Estilo itálico para citas */
+    line-height: 1.6; /* Mayor espacio entre líneas */
+}
+
+body.light-mode .testimonio-autor p {
+    color: #666 !important; /* Gris medio para distinguir del texto principal */
+    font-size: 0.9em; /* Tamaño ligeramente menor */
+}
+
+body.light-mode .contact-header {
+    background-color: #e8e8e8 !important; /* Gris claro */
+    color: #333 !important;
+    border-bottom: 2px solid #127fb1 !important;
+}
+
+body.light-mode .nav a:hover,
+body.light-mode .footer-links-column a:hover,
+body.light-mode .footer-nav a:hover,
+body.light-mode .social-icon:hover {
+    color: #127fb1 !important; /* Azul al pasar el ratón */
+    transform: scale(1.1); /* Efecto de escala al pasar el ratón */
+}
+
+body.light-mode .hero-text h1,
+body.light-mode .header h1,
+body.light-mode .card2 .text h2,
+body.light-mode .miembro-info h3,
+body.light-mode .privacy-title,
+body.light-mode .terms-title,
+body.light-mode .terms-section-title,
+body.light-mode .privacy-section-title {
+    color: #127fb1 !important; /* Azul para títulos */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Mejora para el autor del testimonio */
+body.light-mode .testimonio-autor h3 {
+    color: #0e6b96 !important; /* Azul más oscuro para destacar */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 4px; /* Espacio inferior */
+}
+
+body.light-mode .card .text h2 {
+    color: #127fb1 !important; /* Azul para títulos de tarjetas */
+}
+
+body.light-mode .page,
+body.light-mode .card,
+body.light-mode .card2,
+body.light-mode .servicio-card,
+body.light-mode .miembro,
+body.light-mode form,
+body.light-mode .footer,
+body.light-mode .terms-footer,
+body.light-mode .privacy-footer {
+    background-color: #ffffff !important; /* Blanco puro */
+    border-color: #ddd !important; /* Bordes suaves */
+    color: #333 !important;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08); /* Sombra más sutil */
+}
+
+/* Estilo mejorado para los testimonios */
+body.light-mode .testimonio {
+    background-color: #f9f9f9 !important; /* Fondo ligeramente diferente */
+    border-left: 3px solid #127fb1 !important; /* Borde izquierdo destacado */
+    border-radius: 6px !important; /* Bordes más redondeados */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05) !important; /* Sombra mejorada */
+    padding: 20px !important; /* Más espacio interno */
+    transition: all 0.4s ease; /* Transición mejorada */
+}
+
+body.light-mode .hero::before {
+    background: linear-gradient(to bottom, rgba(189, 185, 185, 0.6), rgba(189, 185, 185, 0.6));
+}
+
+body.light-mode .btn,
+body.light-mode .card button,
+body.light-mode .form .cta {
+    background-color: rgba(18, 127, 177, 0.1) !important; /* Azul con transparencia */
+    color: #127fb1 !important;
+    border: 1px solid #127fb1 !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: all 0.3s ease;
+}
+
+/* Regla adicional más específica para .card button */
+body.light-mode .card button,
+body.light-mode .card button * {
+    color: #127fb1 !important; /* Forzar color de texto azul */
+    fill: #127fb1 !important; /* En caso de que haya SVG dentro del botón */
+}
+
+body.light-mode .btn:hover,
+body.light-mode .card button:hover,
+body.light-mode .form .cta:hover {
+    background-color: #127fb1 !important;
+    color: #fff !important;
+    transform: translateY(-3px); /* Elevación al pasar el ratón */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+}
+
+/* Estilos mejorados para el footer */
+body.light-mode .footer {
+    background-color: #f0f7fb !important; /* Fondo con tono azulado muy sutil */
+    border-top: 3px solid #127fb1 !important; /* Borde superior */
+    padding-top: 40px !important; /* Más espacio en la parte superior */
+}
+
+body.light-mode .footer-links-column h3 {
+    color: #0e6b96 !important; /* Azul más oscuro para títulos del footer */
+    font-weight: 600; /* Más negrita */
+    margin-bottom: 15px; /* Más espacio debajo del título */
+}
+
+body.light-mode .footer-links-column h3::after {
+    background-color: #127fb1; /* Mantiene el azul */
+    height: 3px; /* Línea más gruesa */
+    width: 40px; /* Línea más corta */
+    margin-top: 8px; /* Más espacio sobre la línea */
+}
+
+body.light-mode .footer-links-column a {
+    padding: 4px 0; /* Más espacio vertical entre enlaces */
+    transition: all 0.3s ease; /* Transición suave */
+    display: block; /* Hace que ocupen toda la línea */
+}
+
+body.light-mode .social-icon {
+    border-color: #b7d9ec; /* Borde con color azul muy claro */
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo blanco con mayor opacidad */
+    transition: all 0.3s ease;
+    margin: 0 5px; /* Espaciado entre iconos */
+}
+
+body.light-mode .social-icon:hover {
+    background-color: #127fb1;
+    color: white !important;
+    border-color: #127fb1;
+    transform: translateY(-3px) scale(1.1); /* Efecto de elevación y escala */
+}
+
+body.light-mode .footer-info p {
+    color: #555 !important; /* Gris más oscuro para texto del footer */
+    line-height: 1.6; /* Mayor espacio entre líneas */
+}
+
+body.light-mode input,
+body.light-mode textarea,
+body.light-mode select,
+body.light-mode input[type="date"] {
+    background-color: #f7f7f7 !important;
+    color: #333 !important;
+    border-color: #ddd !important;
+}
+
+body.light-mode input:focus,
+body.light-mode textarea:focus,
+body.light-mode select:focus,
+body.light-mode input[type="date"]:focus {
+    border-color: #127fb1 !important;
+    box-shadow: 0 0 8px rgba(18, 127, 177, 0.3) !important;
+}
+
+body.light-mode .miembro:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    border-color: #127fb1;
+}
+
+body.light-mode .card:hover,
+body.light-mode .servicio-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    border-color: #127fb1;
+}
+
+/* Efecto hover mejorado para testimonios */
+body.light-mode .testimonio:hover {
+    transform: translateY(-8px) scale(1.02); /* Elevación y ligero aumento */
+    box-shadow: 0 12px 24px rgba(18, 127, 177, 0.12); /* Sombra con tono azulado */
+    border-left: 5px solid #127fb1 !important; /* Borde izquierdo más ancho */
+}
+
+body.light-mode .miembro-info .cargo {
+    color: #127fb1 !important;
+}
+
+body.light-mode .overlay {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #127fb1;
+}
+
+.toggle-mode {
+    cursor: pointer;
+    position: fixed;
+    top: 1.2rem;
+    right: 1.2rem;
+    z-index: 10000;
+    padding: 8px 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: rgba(18, 127, 177, 0.2);
+    border: 1px solid #127fb1;
+    color: #127fb1;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.toggle-mode:hover {
+    background-color: #127fb1;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+body.light-mode .toggle-mode {
+    background-color: rgba(18, 127, 177, 0.1);
+    color: #127fb1;
+    border-color: #127fb1;
+}
+
+
+
+
+
+body.light-mode .hero-text h4,
+body.light-mode .card .text h2,
+body.light-mode .servicio-info h2,
+body.light-mode .footer-links-column h3,
+body.light-mode label,
+body.light-mode form label {
+    color: #127fb1 !important; /* Azul para mejorar visibilidad */
+    font-weight: 600; /* Más negrita para destacar */
+}
+
+/* Corrección específica para nombres de equipo */
+body.light-mode .miembro-nombre {
+    color: #333 !important; /* Texto oscuro para mejor visibilidad */
+    font-weight: 600; /* Más negrita */
+}
+
+/* Mejoras para el formulario en modo claro */
+body.light-mode input,
+body.light-mode textarea,
+body.light-mode select,
+body.light-mode input[type="date"] {
+    background-color: #f7f7f7 !important;
+    color: #333 !important;
+    border: 1px solid #cccccc !important;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+}
+
+/* Mejora para el texto del placeholder */
+body.light-mode input::placeholder,
+body.light-mode textarea::placeholder {
+    color: #999 !important;
+}
+
+/* Mejorar texto de selección de servicios */
+body.light-mode select option {
+    color: #333 !important;
+    background-color: #fff !important;
+}
+
+/* Corrección para precios en tarjetas de servicios */
+body.light-mode .precio {
+    color: #0e6b96 !important; /* Azul más oscuro para destacar */
+    font-weight: bold;
+}
+
+/* Corrección para descripciones de servicios */
+body.light-mode .servicio-info p {
+    color: #444 !important; /* Gris oscuro para mejor legibilidad */
+}
+
+/* Corrección para texto en el footer */
+body.light-mode .footer-content p,
+body.light-mode .footer-bottom p {
+    color: #444 !important; /* Gris oscuro para mejor legibilidad */
+}
+
+/* Asegurar que el logo es siempre visible */
+body.light-mode .logo {
+    color: #127fb1 !important; /* Forzar color azul */
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.5); /* Sombra clara */
+}
+
+/* Corrección para el toggle de modo oscuro/claro */
+#toggle-mode {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Asegurar que el botón enviar del formulario tiene buen contraste */
+body.light-mode button.cta {
+    background-color: #127fb1 !important;
+    color: white !important;
+    border: none !important;
+    padding: 10px 20px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+body.light-mode button.cta:hover {
+    background-color: #0e6b96 !important;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Corrección para etiquetas de overlay en equipo */
+body.light-mode .miembro-foto .overlay p {
+    color: #127fb1 !important;
+    font-weight: 600;
+}
+body.light-mode .privacy-container,
+body.light-mode .terms-container {
+    background-color: #f5f5f5; /* Fondo gris muy claro */
+    color: #333; /* Texto casi negro */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #127fb1; /* Línea azul intensa */
+}
+
+body.light-mode .privacy-logo,
+body.light-mode .terms-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #127fb1; /* Azul intenso */
+    margin-bottom: 10px;
+}
+
+/* Navegación */
+body.light-mode .privacy-nav,
+body.light-mode .terms-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+body.light-mode .privacy-nav a,
+body.light-mode .terms-nav a {
+    color: #333; /* Gris oscuro */
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+body.light-mode .privacy-nav a:hover,
+body.light-mode .terms-nav a:hover {
+    color: #127fb1; /* Azul intenso */
+}
+
+/* Página principal */
+body.light-mode .privacy-page,
+body.light-mode .terms-page {
+    padding: 40px 20px;
+    background-color: #f5f5f5; /* Fondo gris muy claro */
+    color: #333; /* Texto casi negro */
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+/* Encabezado */
+body.light-mode .privacy-header,
+body.light-mode .terms-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+body.light-mode .privacy-title,
+body.light-mode .terms-title {
+    margin-top: 20%;
+    font-size: 2.5rem;
+    color: #127fb1; /* Azul intenso */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    margin-bottom: 10px;
+}
+
+body.light-mode .privacy-subtitle,
+body.light-mode .terms-subtitle {
+    font-size: 1.2rem;
+    color: #555; /* Gris oscuro */
+    margin-top: 10px;
+}
+
+/* Contenido */
+body.light-mode .privacy-content,
+body.light-mode .terms-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+body.light-mode .privacy-section-title,
+body.light-mode .terms-section-title {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    color: #333; /* Gris oscuro */
+    border-bottom: 2px solid #127fb1; /* Línea azul decorativa */
+    padding-bottom: 5px;
+}
+
+body.light-mode .privacy-text,
+body.light-mode .terms-text {
+    margin-bottom: 20px;
+    text-align: justify; /* Justificar texto */
+}
+
+/* Listas */
+body.light-mode .privacy-list,
+body.light-mode .terms-list {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+body.light-mode .privacy-list li,
+body.light-mode .terms-list li {
+    list-style-type: disc;
+    margin-bottom: 10px;
+    color: #333; /* Gris oscuro */
+}
+
+/* Enlaces */
+body.light-mode .privacy-link,
+body.light-mode .terms-link {
+    color: #127fb1; /* Azul intenso */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+body.light-mode .privacy-link:hover,
+body.light-mode .terms-link:hover {
+    color: #0e588a; /* Azul más oscuro */
+}
+
+/* Pie de página */
+body.light-mode .privacy-footer,
+body.light-mode .terms-footer {
+    background-color: #e8e8e8; /* Gris muy claro */
+    color: #333; /* Texto oscuro */
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin-top: 40px;
+}
+
+body.light-mode .privacy-footer-content p,
+body.light-mode .terms-footer-content p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+body.light-mode .privacy-footer-nav,
+body.light-mode .terms-footer-nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+body.light-mode .privacy-footer-nav a,
+body.light-mode .terms-footer-nav a {
+    color: #333; /* Gris oscuro */
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+body.light-mode .privacy-footer-nav a:hover,
+body.light-mode .terms-footer-nav a:hover {
+    color: #127fb1; /* Azul intenso */
+}
+
 @media screen and (max-width: 768px) {
     .hero {
+        margin-top: 15%;
         height: 90vh; 
         background-position: center;
         padding: 0 10px; 
+    }
+    .terms-title {
+        font-size: 2.5rem; 
+        margin-top: 20%;
+    }
+    .privacy-title {
+        font-size: 2.5rem; 
+        margin-top: 20%;
     }
 
     .hero h1 {
@@ -1118,8 +1659,8 @@ form .cta:hover {
     }
 
     .nav {
-        display: flex;
-        justify-content: center;
+        display: inline;
+        justify-content:space-around;
     }
     .nav a {
         font-size: 0.9rem;
