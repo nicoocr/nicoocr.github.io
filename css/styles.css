@@ -1509,7 +1509,6 @@ body.light-mode .terms-header {
 
 body.light-mode .privacy-title,
 body.light-mode .terms-title {
-    margin-top: 20%;
     font-size: 2.5rem;
     color: #127fb1; /* Azul intenso */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
